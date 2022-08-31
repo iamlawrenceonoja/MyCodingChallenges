@@ -13,6 +13,17 @@ def solution(number):
             arr.append(x)
             x += 1
     return sum(arr)
+#OR
+"""
+def solution(number):
+    if number < 0:
+        return 0
+    result=0
+    for x in range(3, number):
+        if (x%3==0) or (x%5==0):
+            result += x
+    return result
+ """
 
         
   
