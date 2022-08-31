@@ -25,5 +25,12 @@ def solution(number):
     return result
  """
 
+#Disemvowel a string
+
+ef disemvowel(s):
+    for i in "aeiouAEIOU":
+        s = s.replace(i,'')
+    return s
+
         
   
